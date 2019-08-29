@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"time"
 
-	"spring/internal/server/http"
-	"spring/internal/service"
 	"github.com/bilibili/kratos/pkg/conf/paladin"
 	"github.com/bilibili/kratos/pkg/log"
+	"spring/internal/server/http"
+	"spring/internal/service"
 )
 
 func main() {

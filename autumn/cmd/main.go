@@ -15,6 +15,7 @@ import (
 )
 
 func main() {
+	flag.Set("conf","F:/github/2019-August/autumn/configs")
 	flag.Parse()
 	if err := paladin.Init(); err != nil {
 		panic(err)

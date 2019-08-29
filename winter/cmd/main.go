@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"time"
 
-	"winter/internal/server/http"
-	"winter/internal/service"
 	"github.com/bilibili/kratos/pkg/conf/paladin"
 	"github.com/bilibili/kratos/pkg/log"
+	"winter/internal/server/http"
+	"winter/internal/service"
 )
 
 func main() {
